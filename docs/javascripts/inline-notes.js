@@ -23,8 +23,8 @@
     const existing = insertionPoint.nextElementSibling;
 
     if (existing?.classList.contains('inline-note-card')) {
-      existing.open = !existing.open;
-      link.setAttribute('aria-expanded', String(existing.open));
+      existing.remove();
+      link.setAttribute('aria-expanded', 'false');
       return;
     }
 
@@ -40,6 +40,7 @@
 
     card.addEventListener('toggle', () => {
       link.setAttribute('aria-expanded', String(card.open));
+      if (!card.open) card.remove();
     });
 
     try {
