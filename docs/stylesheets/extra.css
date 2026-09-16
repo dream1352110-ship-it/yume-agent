@@ -1,0 +1,135 @@
+:root {
+  --kb-ink: #17212b;
+  --kb-muted: #5b6875;
+  --kb-line: #d8e1e7;
+  --kb-panel: #f5f8fa;
+  --kb-teal: #007f86;
+  --kb-amber: #b46a00;
+}
+
+body {
+  background: #eef3f5;
+}
+
+.md-header {
+  background: linear-gradient(110deg, #075e66 0%, #07828a 62%, #0b9b91 100%);
+}
+
+.md-tabs {
+  background: #064f57;
+}
+
+.md-main__inner {
+  margin-top: 1rem;
+}
+
+.md-content__inner {
+  max-width: 920px;
+  margin: 0 auto 2rem;
+  padding: 2rem 2.4rem 3rem;
+  background: #fff;
+  border: 1px solid var(--kb-line);
+  border-top: 4px solid var(--kb-teal);
+  border-radius: 8px;
+  box-shadow: 0 4px 18px rgba(25, 52, 67, 0.08);
+}
+
+.md-content h1 {
+  color: var(--kb-ink);
+  font-weight: 750;
+  letter-spacing: 0;
+  border-bottom: 2px solid #c9e5e4;
+  padding-bottom: 0.65rem;
+}
+
+.md-content h2 {
+  color: #075e66;
+  border-left: 5px solid var(--kb-amber);
+  border-bottom: 1px solid var(--kb-line);
+  padding: 0.55rem 0 0.55rem 0.8rem;
+  margin-top: 2rem;
+}
+
+.md-content h3 {
+  color: #344653;
+}
+
+.md-content p,
+.md-content li {
+  color: var(--kb-ink);
+  line-height: 1.85;
+}
+
+.md-nav__item--section > .md-nav__link {
+  color: #075e66;
+  font-weight: 750;
+  background: #e3f1f1;
+  border-left: 4px solid var(--kb-teal);
+  border-radius: 4px;
+  margin: 0.35rem 0;
+  padding: 0.45rem 0.65rem;
+}
+
+.md-nav__item .md-nav__link--active {
+  color: #8a5000;
+  background: #fff2d8;
+  border-left: 4px solid var(--kb-amber);
+  font-weight: 700;
+}
+
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+  border: 1px solid var(--kb-line);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(25, 52, 67, 0.05);
+}
+
+.md-typeset table:not([class]) th {
+  background: #dff0ef;
+  color: #075e66;
+  font-weight: 750;
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) td {
+  background: #f7fafb;
+}
+
+.md-typeset pre > code {
+  border: 1px solid #cbd9df;
+  border-left: 4px solid var(--kb-teal);
+  border-radius: 5px;
+}
+
+.md-typeset code {
+  background: #edf3f5;
+  color: #8a5000;
+  border: 1px solid #d6e2e7;
+}
+
+.md-typeset a {
+  color: #00737a;
+  text-decoration-color: #8bc7c5;
+  text-underline-offset: 3px;
+}
+
+.md-typeset a:hover {
+  color: #b46a00;
+}
+
+.md-typeset blockquote {
+  border-left: 5px solid var(--kb-amber);
+  background: #fff8e9;
+  color: #4b3a20;
+  padding: 0.7rem 1rem;
+  border-radius: 0 5px 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .md-content__inner {
+    margin: 0 0.6rem 1rem;
+    padding: 1.25rem 1rem 2rem;
+    border-radius: 6px;
+  }
+}
