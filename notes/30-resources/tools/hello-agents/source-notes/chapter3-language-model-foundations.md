@@ -38,3 +38,7 @@
 ## 可连接的概念
 
 [[N-gram 语言模型]] · [[词向量与余弦相似度]] · [[BPE Tokenizer]] · [[Scaled Dot-Product Attention]] · [[Agent Loop]]
+
+## Personal Note
+
+- [第三章手写复习笔记](../personal-notes/chapter3-handwritten-review.md)：补充 RNN / LSTM、词嵌入直觉和注意力公式。

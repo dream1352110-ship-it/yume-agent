@@ -21,6 +21,10 @@
 - [BPE Tokenizer](concepts/bpe-tokenizer.md)
 - [Scaled Dot-Product Attention](concepts/attention.md)
 
+### Personal Notes
+
+- [第三章手写复习笔记](personal-notes/chapter3-handwritten-review.md)
+
 ### Code
 
 - [代码实践索引](../../../../code-map.md)

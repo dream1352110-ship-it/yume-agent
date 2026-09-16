@@ -61,6 +61,8 @@ nav:
       - 词向量与余弦相似度: notes/30-resources/tools/hello-agents/concepts/word-embeddings.md
       - BPE Tokenizer: notes/30-resources/tools/hello-agents/concepts/bpe-tokenizer.md
       - Scaled Dot-Product Attention: notes/30-resources/tools/hello-agents/concepts/attention.md
+  - Personal Notes:
+      - 第三章手写复习笔记: notes/30-resources/tools/hello-agents/personal-notes/chapter3-handwritten-review.md
   - 章节速览:
       - 第一章: chapter1.md
       - 第二章: chapter2.md
