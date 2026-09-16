@@ -49,6 +49,9 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/inline-notes.js
+
 nav:
   - 首页: index.md
   - 知识库入口:

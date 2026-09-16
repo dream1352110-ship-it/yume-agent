@@ -126,6 +126,42 @@ body {
   border-radius: 0 5px 5px 0;
 }
 
+.inline-note-card {
+  margin: 0.8rem 0 1.4rem;
+  border: 1px solid #cfc3e3;
+  border-left: 5px solid var(--kb-purple);
+  border-radius: 6px;
+  background: #fbfaff;
+  box-shadow: 0 3px 12px rgba(78, 57, 111, 0.1);
+}
+
+.inline-note-card > summary {
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  color: #5d4c7d;
+  font-weight: 700;
+  list-style-position: inside;
+}
+
+.inline-note-card > summary:hover {
+  background: #f0ebfa;
+  color: #8a5000;
+}
+
+.inline-note-content {
+  padding: 0 1rem 1rem;
+  border-top: 1px solid #e5dff0;
+}
+
+.inline-note-content h2 {
+  font-size: 1.15rem;
+  margin-top: 1.2rem;
+}
+
+.inline-note-content h3 {
+  font-size: 1rem;
+}
+
 @media screen and (max-width: 768px) {
   .md-content__inner {
     margin: 0 0.6rem 1rem;
