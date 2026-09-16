@@ -45,11 +45,11 @@ Transformer 用注意力直接建立序列中任意位置之间的依赖，避�
 
 ## 本章代码对应
 
-- [`demo.py`](../chapter3/demo.py)：用 Bigram 计数计算句子概率。
-- [`demo2.py`](../chapter3/demo2.py)：用二维词向量演示 `king - man + woman ≈ queen` 与余弦相似度。
-- [`demo3.py`](../chapter3/demo3.py)：实现位置编码、多头注意力、前馈网络、编码器层和解码器层的核心结构。
-- [`demo4.py`](../chapter3/demo4.py)：演示 BPE 的频率统计与高频 Token 对合并。
-- [`demo5.py`](../chapter3/demo5.py)：使用 Transformers 加载 Qwen，套用聊天模板并生成回答。
+- [`demo.py`](chapter3/demo.py)：用 Bigram 计数计算句子概率。
+- [`demo2.py`](chapter3/demo2.py)：用二维词向量演示 `king - man + woman ≈ queen` 与余弦相似度。
+- [`demo3.py`](chapter3/demo3.py)：实现位置编码、多头注意力、前馈网络、编码器层和解码器层的核心结构。
+- [`demo4.py`](chapter3/demo4.py)：演示 BPE 的频率统计与高频 Token 对合并。
+- [`demo5.py`](chapter3/demo5.py)：使用 Transformers 加载 Qwen，套用聊天模板并生成回答。
 
 建议按 `demo.py → demo2.py → demo3.py → demo4.py → demo5.py` 顺序运行，先理解概率和表示，再进入架构、分词与完整模型推理。
 

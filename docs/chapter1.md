@@ -41,7 +41,7 @@ LLM Agent 的变化在于：大语言模型承担通用决策与语言理解，�
 
 ## 本章代码对应
 
-[`chapter1/demo1.py`](../chapter1/demo1.py) 实现了一个天气与景点推荐 Agent：
+[`chapter1/demo1.py`](chapter1/demo1.py) 实现了一个天气与景点推荐 Agent：
 
 1. `AGENT_SYSTEM_PROMPT` 定义工具、输出格式和结束动作。
 2. `available_tools` 将函数名映射到 Python 函数。

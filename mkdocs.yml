@@ -1,0 +1,47 @@
+site_name: yume-agent知识库
+site_description: Hello-Agents 前三章学习笔记与代码实践
+site_url: https://dream1352110-ship-it.github.io/yume-agent/
+docs_dir: docs
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - toc:
+      permalink: true
+
+nav:
+  - 首页: index.md
+  - 知识库入口:
+      - Hello-Agents: notes/30-resources/tools/hello-agents/README.md
+      - 第一章 Source Note: notes/30-resources/tools/hello-agents/source-notes/chapter1-agent-foundations.md
+      - 第二章 Source Note: notes/30-resources/tools/hello-agents/source-notes/chapter2-agent-history.md
+      - 第三章 Source Note: notes/30-resources/tools/hello-agents/source-notes/chapter3-language-model-foundations.md
+  - Concept Notes:
+      - 总览: notes/30-resources/tools/hello-agents/concepts/README.md
+      - Agent Loop: notes/30-resources/tools/hello-agents/concepts/agent-loop.md
+      - PEAS 任务环境: notes/30-resources/tools/hello-agents/concepts/peas-task-environment.md
+      - N-gram 语言模型: notes/30-resources/tools/hello-agents/concepts/n-gram.md
+      - 词向量与余弦相似度: notes/30-resources/tools/hello-agents/concepts/word-embeddings.md
+      - BPE Tokenizer: notes/30-resources/tools/hello-agents/concepts/bpe-tokenizer.md
+      - Scaled Dot-Product Attention: notes/30-resources/tools/hello-agents/concepts/attention.md
+  - 章节速览:
+      - 第一章: chapter1.md
+      - 第二章: chapter2.md
+      - 第三章: chapter3.md
+      - 代码实践索引: code-map.md

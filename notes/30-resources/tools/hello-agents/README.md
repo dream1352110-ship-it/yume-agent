@@ -23,7 +23,7 @@
 
 ### Code
 
-- [代码实践索引](../../../../docs/code-map.md)
+- [代码实践索引](../../../../code-map.md)
 - [第一章：天气与景点 Agent](../../../../chapter1/demo1.py)
 - [第二章：规则对话程序](../../../../chapter2/demo.py)
 - [第三章：LLM 基础实验](../../../../chapter3/)
@@ -32,7 +32,7 @@
 
 - [在线教程](https://datawhalechina.github.io/hello-agents/)
 - [原始 GitHub 仓库](https://github.com/datawhalechina/hello-agents)
-- [本仓库首页](../../../../README.md)
+- [本仓库首页](../../../../index.md)
 
 ## 学习主线
 
