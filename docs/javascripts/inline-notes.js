@@ -4,7 +4,7 @@
       const url = new URL(link.href, window.location.href);
       return (
         url.origin === window.location.origin &&
-        url.pathname.includes('/notes/30-resources/tools/hello-agents/')
+        url.pathname.includes('/notes/30-resources/tools/hello-agents/concepts/')
       );
     } catch {
       return false;
