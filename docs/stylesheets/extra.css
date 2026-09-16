@@ -1,22 +1,22 @@
 :root {
-  --kb-ink: #17212b;
-  --kb-muted: #5b6875;
-  --kb-line: #d8e1e7;
-  --kb-panel: #f5f8fa;
-  --kb-teal: #007f86;
+  --kb-ink: #302a3d;
+  --kb-muted: #6f687a;
+  --kb-line: #ddd7ea;
+  --kb-panel: #f7f5fb;
+  --kb-purple: #8b7bb5;
   --kb-amber: #b46a00;
 }
 
 body {
-  background: #eef3f5;
+  background: #f7f5fb;
 }
 
 .md-header {
-  background: linear-gradient(110deg, #075e66 0%, #07828a 62%, #0b9b91 100%);
+  background: linear-gradient(110deg, #5d4c7d 0%, #806da6 62%, #9a89bd 100%);
 }
 
 .md-tabs {
-  background: #064f57;
+  background: #4d3f68;
 }
 
 .md-main__inner {
@@ -29,7 +29,7 @@ body {
   padding: 2rem 2.4rem 3rem;
   background: #fff;
   border: 1px solid var(--kb-line);
-  border-top: 4px solid var(--kb-teal);
+  border-top: 4px solid var(--kb-purple);
   border-radius: 8px;
   box-shadow: 0 4px 18px rgba(25, 52, 67, 0.08);
 }
@@ -38,12 +38,12 @@ body {
   color: var(--kb-ink);
   font-weight: 750;
   letter-spacing: 0;
-  border-bottom: 2px solid #c9e5e4;
+  border-bottom: 2px solid #ddd2ef;
   padding-bottom: 0.65rem;
 }
 
 .md-content h2 {
-  color: #075e66;
+  color: #5d4c7d;
   border-left: 5px solid var(--kb-amber);
   border-bottom: 1px solid var(--kb-line);
   padding: 0.55rem 0 0.55rem 0.8rem;
@@ -63,8 +63,8 @@ body {
 .md-nav__item--section > .md-nav__link {
   color: #075e66;
   font-weight: 750;
-  background: #e3f1f1;
-  border-left: 4px solid var(--kb-teal);
+  background: #eeeaf7;
+  border-left: 4px solid var(--kb-purple);
   border-radius: 4px;
   margin: 0.35rem 0;
   padding: 0.45rem 0.65rem;
@@ -87,8 +87,8 @@ body {
 }
 
 .md-typeset table:not([class]) th {
-  background: #dff0ef;
-  color: #075e66;
+  background: #eeeaf7;
+  color: #5d4c7d;
   font-weight: 750;
 }
 
@@ -98,7 +98,7 @@ body {
 
 .md-typeset pre > code {
   border: 1px solid #cbd9df;
-  border-left: 4px solid var(--kb-teal);
+  border-left: 4px solid var(--kb-purple);
   border-radius: 5px;
 }
 
@@ -109,8 +109,8 @@ body {
 }
 
 .md-typeset a {
-  color: #00737a;
-  text-decoration-color: #8bc7c5;
+  color: #685493;
+  text-decoration-color: #b6a6d2;
   text-underline-offset: 3px;
 }
 
