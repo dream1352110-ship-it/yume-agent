@@ -13,23 +13,23 @@
 
 ## N-gram：从统计概率开始
 
-[`chapter3/demo.py`](../../../../../chapter3/demo.py) 用 Bigram 统计相邻词频，近似计算句子概率。N-gram 直观但受数据稀疏、短上下文和语义泛化差限制。详见 [N-gram 语言模型](../concepts/n-gram.md)。
+[`chapter3/demo.py`](../../../../../code/chapter3-demo.md) 用 Bigram 统计相邻词频，近似计算句子概率。N-gram 直观但受数据稀疏、短上下文和语义泛化差限制。详见 [N-gram 语言模型](../concepts/n-gram.md)。
 
 ## 词向量：从编号到表示
 
-[`chapter3/demo2.py`](../../../../../chapter3/demo2.py) 用二维向量演示余弦相似度和 `king - man + woman ≈ queen`。Token ID 只是编号，向量才是模型可进行线性变换、相似度计算和上下文融合的表示。详见 [词向量与余弦相似度](../concepts/word-embeddings.md)。
+[`chapter3/demo2.py`](../../../../../code/chapter3-demo2.md) 用二维向量演示余弦相似度和 `king - man + woman ≈ queen`。Token ID 只是编号，向量才是模型可进行线性变换、相似度计算和上下文融合的表示。详见 [词向量与余弦相似度](../concepts/word-embeddings.md)。
 
 ## Tokenizer：BPE
 
-[`chapter3/demo4.py`](../../../../../chapter3/demo4.py) 统计高频相邻符号并反复合并。BPE 在完整词和单字符之间折中：常见片段缩短序列，罕见词仍可拆成已知子词。详见 [BPE Tokenizer](../concepts/bpe-tokenizer.md)。
+[`chapter3/demo4.py`](../../../../../code/chapter3-demo4.md) 统计高频相邻符号并反复合并。BPE 在完整词和单字符之间折中：常见片段缩短序列，罕见词仍可拆成已知子词。详见 [BPE Tokenizer](../concepts/bpe-tokenizer.md)。
 
 ## Transformer：上下文建模
 
-[`chapter3/demo3.py`](../../../../../chapter3/demo3.py) 包含位置编码、多头注意力、前馈网络、残差连接、LayerNorm 以及编码器/解码器层。注意力的核心是 `softmax(QK^T / sqrt(d_k))V`，它让每个 Token 按相关性汇总其他 Token 的信息。详见 [Scaled Dot-Product Attention](../concepts/attention.md)。
+[`chapter3/demo3.py`](../../../../../code/chapter3-demo3.md) 包含位置编码、多头注意力、前馈网络、残差连接、LayerNorm 以及编码器/解码器层。注意力的核心是 `softmax(QK^T / sqrt(d_k))V`，它让每个 Token 按相关性汇总其他 Token 的信息。详见 [Scaled Dot-Product Attention](../concepts/attention.md)。
 
 ## 从模型到生成
 
-[`chapter3/demo5.py`](../../../../../chapter3/demo5.py) 使用 Transformers 加载 Qwen：消息套用 chat template，Tokenizer 转为 ID，`generate()` 自回归地产生新 ID，再解码为文本。模型不是一次性写出答案，而是循环预测下一个 Token。
+[`chapter3/demo5.py`](../../../../../code/chapter3-demo5.md) 使用 Transformers 加载 Qwen：消息套用 chat template，Tokenizer 转为 ID，`generate()` 自回归地产生新 ID，再解码为文本。模型不是一次性写出答案，而是循环预测下一个 Token。
 
 ## 工程边界
 

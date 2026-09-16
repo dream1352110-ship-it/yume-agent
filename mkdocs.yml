@@ -38,6 +38,9 @@ markdown_extensions:
   - attr_list
   - pymdownx.details
   - pymdownx.highlight
+  - pymdownx.snippets:
+      base_path:
+        - .
   - pymdownx.superfences
   - pymdownx.tasklist
   - toc:
@@ -68,3 +71,11 @@ nav:
       - 第二章: chapter2.md
       - 第三章: chapter3.md
       - 代码实践索引: code-map.md
+  - 代码:
+      - 第一章 / demo1.py: code/chapter1-demo1.md
+      - 第二章 / demo.py: code/chapter2-demo.md
+      - 第三章 / demo.py: code/chapter3-demo.md
+      - 第三章 / demo2.py: code/chapter3-demo2.md
+      - 第三章 / demo3.py: code/chapter3-demo3.md
+      - 第三章 / demo4.py: code/chapter3-demo4.md
+      - 第三章 / demo5.py: code/chapter3-demo5.md

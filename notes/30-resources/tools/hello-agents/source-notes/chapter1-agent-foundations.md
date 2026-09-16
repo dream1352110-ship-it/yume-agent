@@ -27,7 +27,7 @@ Observation -> Thought/Plan -> Action -> Environment -> Observation
 
 ## 代码锚点
 
-[`chapter1/demo1.py`](../../../../../chapter1/demo1.py) 用天气查询与景点搜索展示完整循环：system prompt 规定协议，`available_tools` 注册工具，`prompt_history` 保存上下文，主循环解析 `Action` 并追加 `Observation`。
+[`chapter1/demo1.py`](../../../../../code/chapter1-demo1.md) 用天气查询与景点搜索展示完整循环：system prompt 规定协议，`available_tools` 注册工具，`prompt_history` 保存上下文，主循环解析 `Action` 并追加 `Observation`。
 
 ## 可连接的概念
 

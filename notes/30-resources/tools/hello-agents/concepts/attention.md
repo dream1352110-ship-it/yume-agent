@@ -4,4 +4,4 @@
 
 多头注意力在多个子空间并行学习不同关系，再拼接回模型维度。位置编码补充顺序信息，残差连接和 LayerNorm 帮助训练稳定。
 
-代码：[chapter3/demo3.py](../../../../../chapter3/demo3.py)。
+代码：[chapter3/demo3.py](../../../../../code/chapter3-demo3.md)。

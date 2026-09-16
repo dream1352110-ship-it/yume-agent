@@ -4,4 +4,4 @@
 
 向量关系可以表达一定的语义方向，例如 `king - man + woman ≈ queen`；这不是固定规则，而是训练后表示空间中的近似结构。
 
-代码：[chapter3/demo2.py](../../../../../chapter3/demo2.py)。
+代码：[chapter3/demo2.py](../../../../../code/chapter3-demo2.md)。

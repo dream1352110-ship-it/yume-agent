@@ -28,9 +28,9 @@
 ### Code
 
 - [代码实践索引](../../../../code-map.md)
-- [第一章：天气与景点 Agent](../../../../chapter1/demo1.py)
-- [第二章：规则对话程序](../../../../chapter2/demo.py)
-- [第三章：LLM 基础实验](../../../../chapter3/)
+- [第一章：天气与景点 Agent](../../../../code/chapter1-demo1.md)
+- [第二章：规则对话程序](../../../../code/chapter2-demo.md)
+- [第三章：LLM 基础实验](../../../../code/chapter3-demo.md)
 
 ## 外部资源
 

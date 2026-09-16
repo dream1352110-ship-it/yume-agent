@@ -46,7 +46,7 @@ similarity(a, b) = cos(theta) = (a · b) / (|a| |b|)
 - `90°`：相似度为 `0`，方向正交，相关性弱。
 - `180°`：相似度为 `-1`，方向完全相反。
 
-这里比较的是向量方向，而不是 Token ID 的数字大小。对应代码见 [词向量与余弦相似度](../concepts/word-embeddings.md) 和 [`chapter3/demo2.py`](../../../../../chapter3/demo2.py)。
+这里比较的是向量方向，而不是 Token ID 的数字大小。对应代码见 [词向量与余弦相似度](../concepts/word-embeddings.md) 和 [`chapter3/demo2.py`](../../../../../code/chapter3-demo2.md)。
 
 ## RNN 与 LSTM
 
@@ -56,7 +56,7 @@ similarity(a, b) = cos(theta) = (a · b) / (|a| |b|)
 
 ## Transformer 与位置编码
 
-Transformer 用注意力机制替代 RNN 的逐步递归计算，可以并行处理序列中的 Token。为了让模型知道 Token 的顺序，需要加入位置编码；本仓库的 [`chapter3/demo3.py`](../../../../../chapter3/demo3.py) 使用正弦和余弦函数构造位置编码。
+Transformer 用注意力机制替代 RNN 的逐步递归计算，可以并行处理序列中的 Token。为了让模型知道 Token 的顺序，需要加入位置编码；本仓库的 [`chapter3/demo3.py`](../../../../../code/chapter3-demo3.md) 使用正弦和余弦函数构造位置编码。
 
 ## Q、K、V 与注意力
 
