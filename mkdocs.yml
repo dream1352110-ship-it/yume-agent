@@ -1,5 +1,5 @@
 site_name: yume-agent知识库
-site_description: Hello-Agents 前三章学习笔记与代码实践
+site_description: Hello-Agents 学习笔记与代码实践
 site_url: https://dream1352110-ship-it.github.io/yume-agent/
 docs_dir: docs
 
@@ -59,6 +59,7 @@ nav:
       - 第一章 Source Note: notes/30-resources/tools/hello-agents/source-notes/chapter1-agent-foundations.md
       - 第二章 Source Note: notes/30-resources/tools/hello-agents/source-notes/chapter2-agent-history.md
       - 第三章 Source Note: notes/30-resources/tools/hello-agents/source-notes/chapter3-language-model-foundations.md
+      - 第四章 Source Note: notes/30-resources/tools/hello-agents/source-notes/chapter4-classic-agent-patterns.md
   - Concept Notes:
       - 总览: notes/30-resources/tools/hello-agents/concepts/README.md
       - Agent Loop: notes/30-resources/tools/hello-agents/concepts/agent-loop.md
@@ -67,12 +68,17 @@ nav:
       - 词向量与余弦相似度: notes/30-resources/tools/hello-agents/concepts/word-embeddings.md
       - BPE Tokenizer: notes/30-resources/tools/hello-agents/concepts/bpe-tokenizer.md
       - Scaled Dot-Product Attention: notes/30-resources/tools/hello-agents/concepts/attention.md
+      - ReAct: notes/30-resources/tools/hello-agents/concepts/react-pattern.md
+      - Plan-and-Solve: notes/30-resources/tools/hello-agents/concepts/plan-and-solve.md
+      - Reflection: notes/30-resources/tools/hello-agents/concepts/reflection.md
   - Personal Notes:
       - 第三章手写复习笔记: notes/30-resources/tools/hello-agents/personal-notes/chapter3-handwritten-review.md
+      - 第四章学习理解: notes/30-resources/tools/hello-agents/personal-notes/chapter4-my-understanding.md
   - 章节速览:
       - 第一章: chapter1.md
       - 第二章: chapter2.md
       - 第三章: chapter3.md
+      - 第四章: chapter4.md
       - 代码实践索引: code-map.md
   - 代码:
       - 第一章 / demo1.py: code/chapter1-demo1.md

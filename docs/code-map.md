@@ -9,6 +9,7 @@
 | [chapter3/demo3.py](code/chapter3-demo3.md) | `torch` | 位置编码、多头注意力、Transformer 层 |
 | [chapter3/demo4.py](code/chapter3-demo4.md) | Python 标准库 | BPE 子词合并 |
 | [chapter3/demo5.py](code/chapter3-demo5.md) | `torch`、`transformers` | Tokenizer、chat template、自回归生成 |
+| 第四章代码 | 待补充 | ReAct、Plan-and-Solve、Reflection |
 
 ## 运行示例
 

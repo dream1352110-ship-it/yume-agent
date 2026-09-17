@@ -1,7 +1,7 @@
 # Hello-Agents
 
 > 资源类型：课程 / 源码 / 学习笔记  
-> 范围：前三章  
+> 范围：第一章到第四章  
 > 状态：学习中
 
 ## 目录
@@ -11,6 +11,7 @@
 - [第一章：初识智能体](source-notes/chapter1-agent-foundations.md)
 - [第二章：智能体发展史](source-notes/chapter2-agent-history.md)
 - [第三章：大语言模型基础](source-notes/chapter3-language-model-foundations.md)
+- [第四章：智能体经典范式构建](source-notes/chapter4-classic-agent-patterns.md)
 
 ### Concept Notes
 
@@ -20,10 +21,14 @@
 - [词向量与余弦相似度](concepts/word-embeddings.md)
 - [BPE Tokenizer](concepts/bpe-tokenizer.md)
 - [Scaled Dot-Product Attention](concepts/attention.md)
+- [ReAct](concepts/react-pattern.md)
+- [Plan-and-Solve](concepts/plan-and-solve.md)
+- [Reflection](concepts/reflection.md)
 
 ### Personal Notes
 
 - [第三章手写复习笔记](personal-notes/chapter3-handwritten-review.md)
+- [第四章学习理解](personal-notes/chapter4-my-understanding.md)
 
 ### Code
 
@@ -45,5 +50,6 @@ Agent 是什么
   -> Agent 如何感知、思考、行动
   -> 为什么历史上出现规则、学习和神经网络范式
   -> LLM 如何用 Token、向量和 Transformer 生成文本
+  -> Agent 如何用经典范式组织推理、行动、规划和反思
   -> 用代码把这些概念串成可运行的最小实验
 ```
